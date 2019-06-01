@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+
+        <!-- FIRST ROW -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1.0"
+        android:orientation="horizontal" >
+        <!-- first column -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1.0"
+            android:background="@color/color1"
+            android:orientation="vertical" >
+        <ImageView
+            android:id="@+id/imageView_laugh"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="@dimen/buttom_padding_v"
+            android:layout_gravity="center_horizontal"
+
+            android:layout_weight="1.0"
+             />
+            <TextView
+                android:id="@+id/text_laugh"
+                android:text=""
+                android:background="@color/oscurecer"
+                android:textColor="@android:color/white"
+                android:gravity="center"
+                android:padding="@dimen/dark_padding_v"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <!-- second column -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1.0"
+            android:background="@color/color2"
+            android:orientation="vertical" >
+        <ImageView
+            android:id="@+id/imageView_yeah"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="@dimen/buttom_padding_v"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1.0"
+            />
+            <TextView
+                android:id="@+id/text_yeah"
+                android:text=""
+                android:background="@color/oscurecer"
+                android:textColor="@android:color/white"
+                android:gravity="center"
+                android:padding="@dimen/dark_padding_v"
+                android:layout_centerInParent="true"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <!-- SECOND ROW -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1.0"
+
+        android:orientation="horizontal" >
+        <!-- first column -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1.0"
+            android:background="@color/color3"
+            android:orientation="vertical" >
+        <ImageView
+            android:id="@+id/imageView_applause"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="@dimen/buttom_padding_v"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1.0"
+            />
+        <TextView
+            android:id="@+id/text_applause"
+            android:text=""
+            android:background="@color/oscurecer"
+            android:textColor="@android:color/white"
+            android:gravity="center"
+            android:padding="@dimen/dark_padding_v"
+            android:layout_centerInParent="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+        <!-- second column -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1.0"
+            android:background="@color/color4"
+            android:orientation="vertical" >
+        <ImageView
+            android:id="@+id/imageView_boo"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="@dimen/buttom_padding_v"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1.0"
+            />
+    <TextView
+        android:id="@+id/text_boo"
+        android:text=""
+        android:background="@color/oscurecer"
+        android:textColor="@android:color/white"
+        android:gravity="center"
+        android:padding="@dimen/dark_padding_v"
+        android:layout_centerInParent="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>
+
+    </LinearLayout>
+
+    <!-- THIRD ROW -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1.0"
+        android:orientation="horizontal" >
+
+        <!-- second column -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1.0"
+            android:background="@color/color5"
+            android:orientation="vertical" >
+        <ImageView
+            android:id="@+id/imageView_hmm"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="@dimen/buttom_padding_v"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1.0"
+            />
+        <TextView
+            android:id="@+id/text_hmm"
+            android:text=""
+            android:background="@color/oscurecer"
+            android:textColor="@android:color/white"
+            android:gravity="center"
+            android:padding="@dimen/dark_padding_v"
+            android:layout_centerInParent="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+        <!-- second column -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1.0"
+            android:background="@color/color6"
+            android:orientation="vertical" >
+        <ImageView
+            android:id="@+id/imageView_fail"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="@dimen/buttom_padding_v"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1.0"
+            />
+            <TextView
+            android:id="@+id/text_fail"
+            android:text=""
+            android:background="@color/oscurecer"
+            android:textColor="@android:color/white"
+            android:gravity="center"
+                android:padding="@dimen/dark_padding_v"
+            android:layout_centerInParent="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    </LinearLayout>
+
+
+   <!-- <TextView
+        android:id="@+id/textGrid"
+        android:text="LA PROMOSIÓ"
+        android:textSize="34sp"
+        android:background="@color/color_fondo"
+        android:textColor="@android:color/white"
+        android:gravity="center"
+        android:layout_centerInParent="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />-->
+
+    <com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adView"
+        android:background="@color/color_fondo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        ads:adSize="BANNER"
+        ads:adUnitId="ca-app-pub-3498967338559704/9578396067">
+    </com.google.android.gms.ads.AdView>
+
+</LinearLayout>
