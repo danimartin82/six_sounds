@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="buttom_size" >20dp</dimen>
+    <dimen name="buttom_padding_v" >30dp</dimen>
+    <dimen name="dark_padding_v" >10dp</dimen>
+
+    <dimen name="buttom_padding_h" >0dp</dimen>
+    <dimen name="dark_padding_h" >1dp</dimen>
+
+</resources>

@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Six Sounds!</string>
+    <string name="buttom_sound_1">Applause</string>
+    <string name="buttom_sound_2">Boo</string>
+    <string name="buttom_sound_3">Laugh</string>
+    <string name="buttom_sound_4">Kids</string>
+    <string name="buttom_sound_5">Hmm</string>
+    <string name="buttom_sound_6">Fail</string>
+    <string name="six_sounds">SIX SOUNDS!</string>
+
+</resources>
